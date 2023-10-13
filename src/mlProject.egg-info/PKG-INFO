@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml
+Home-page: https://github.com/kenzo/End-to-end-ML
+Author: kenzo
+Author-email: hung11194@gmail.com
+Project-URL: Bug Tracker, https://github.com/kenzo/End-to-end-ML/issues
+
+# Mein zufällig generierter README
+
+## Übersicht
+
+Dies ist eine Beispiel-README-Datei, die zufällig generiert wurde. Sie dient nur zu Demonstrationszwecken.
+
+## Installation
+
+1. Klonen Sie dieses Repository.
+2. Führen Sie `install.sh` aus.
+3. Genießen Sie das zufällig generierte Projekt!
+
+## Verwendung
+
+Hier ist ein einfaches Beispiel, wie Sie dieses Projekt verwenden können:
+
+```python
+print("Hello, World!")
