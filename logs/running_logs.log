@@ -1,1 +1,69 @@
 [2023-10-13 17:09:25,029: INFO: main: Welcome]
+[2023-10-13 18:53:09,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-13 18:53:09,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-13 18:53:09,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-13 18:53:09,567: INFO: common: created directory at: artifacts]
+[2023-10-13 18:53:09,569: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-13 18:53:10,193: INFO: 2999159187: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A4E2:DA84:D5572B:DDA572:6529760F
+Accept-Ranges: bytes
+Date: Fri, 13 Oct 2023 16:53:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ams21056-AMS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1697216016.906843,VS0,VE180
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 628f3c457efe642835ff4822963e9cda2dab1dd4
+Expires: Fri, 13 Oct 2023 16:58:36 GMT
+Source-Age: 0
+
+]
+[2023-10-13 19:10:17,432: INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-10-13 19:10:17,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-13 19:10:17,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-13 19:10:17,434: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-13 19:10:17,435: INFO: common: created directory at: artifacts]
+[2023-10-13 19:10:17,435: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-13 19:10:18,058: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A4E2:DA84:D5572B:DDA572:6529760F
+Accept-Ranges: bytes
+Date: Fri, 13 Oct 2023 17:10:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ams21078-AMS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1697217044.813712,VS0,VE140
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fd606dd12f44faf6073f78c8693fcc6ce944afbf
+Expires: Fri, 13 Oct 2023 17:15:43 GMT
+Source-Age: 0
+
+]
+[2023-10-13 19:10:18,070: INFO: main: >>>> stage Data Ingestion stage completed <<<<<
+
+x========x]
