@@ -174,3 +174,90 @@ x========x]
 [2023-10-14 17:36:44,477: INFO: main: >>>> stage Data Validation stage completed <<<<<
 
 x========x]
+[2023-10-14 17:51:39,861: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 17:51:39,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 17:51:39,866: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 17:51:39,868: INFO: common: created directory at: artifacts]
+[2023-10-14 17:51:39,869: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 17:53:12,082: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 17:53:12,084: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 17:53:12,086: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 17:53:12,087: INFO: common: created directory at: artifacts]
+[2023-10-14 17:53:12,088: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 17:54:10,116: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 17:54:10,117: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 17:54:10,120: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 17:54:10,121: INFO: common: created directory at: artifacts]
+[2023-10-14 17:54:10,128: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-14 17:54:10,150: INFO: 1231719952: Train-Test-Split was successful!]
+[2023-10-14 17:54:10,151: INFO: 1231719952: Train-shape(1199, 12)]
+[2023-10-14 17:54:10,152: INFO: 1231719952: Test-shape(400, 12)]
+[2023-10-14 18:04:25,671: INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-10-14 18:04:25,673: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 18:04:25,674: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 18:04:25,675: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 18:04:25,676: INFO: common: created directory at: artifacts]
+[2023-10-14 18:04:25,676: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 18:04:26,263: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B9AA:6A08:15961C1:1686544:652AB5A7
+Accept-Ranges: bytes
+Date: Sat, 14 Oct 2023 16:04:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ams21077-AMS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1697299493.295156,VS0,VE151
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9c39655b4baca4aea69a7d2fea0a46bd50f262b0
+Expires: Sat, 14 Oct 2023 16:09:53 GMT
+Source-Age: 0
+
+]
+[2023-10-14 18:04:26,272: INFO: main: >>>> stage Data Ingestion stage completed <<<<<
+
+x========x]
+[2023-10-14 18:04:26,272: INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-10-14 18:04:26,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 18:04:26,275: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 18:04:26,277: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 18:04:26,277: INFO: common: created directory at: artifacts]
+[2023-10-14 18:04:26,278: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-14 18:04:26,288: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,289: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,289: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,290: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,290: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,291: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,291: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,292: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,293: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,293: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,293: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,294: INFO: data_validation: Validation status: True]
+[2023-10-14 18:04:26,294: INFO: main: >>>> stage Data Validation stage completed <<<<<
+
+x========x]
+[2023-10-14 18:04:26,294: INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-10-14 18:04:26,296: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 18:04:26,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 18:04:26,298: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-14 18:04:26,299: INFO: common: created directory at: artifacts]
+[2023-10-14 18:04:26,299: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-14 18:04:26,314: INFO: data_transformation: Train-Test-Split was successful!]
+[2023-10-14 18:04:26,314: INFO: data_transformation: Train-shape(1199, 12)]
+[2023-10-14 18:04:26,314: INFO: data_transformation: Test-shape(400, 12)]
+[2023-10-14 18:04:26,315: INFO: main: >>>> stage Data Transformation stage completed <<<<<
+
+x========x]
