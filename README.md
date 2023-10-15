@@ -12,15 +12,60 @@
 8. Update main.py
 9. Update dvc.yaml
 
-## Installation
+# How to run?
+### STEPS:
 
-1. clone repo
-2. Führen Sie `install.sh` aus.
-3. Genießen Sie das zufällig generierte Projekt!
+Clone the repository
 
-## Verwendung
+```bash
+https://https://github.com/kenzo94/ML-Ops
+```
+### STEP 01- Create a conda environment after opening the repository
 
-Hier ist ein einfaches Beispiel, wie Sie dieses Projekt verwenden können:
+```bash
+conda create -n mlproj python=3.8 -y
+```
 
-```python
-print("Hello, World!")
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+## MLflow
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+#### cmd
+- mlflow ui
+
+
+#### dagshub
+[dagshub](https://dagshub.com)
+MLFLOW_TRACKING_URI=https://dagshub.com/kenzo94/ML-Ops.mlflow \
+MLFLOW_TRACKING_USERNAME=kenzo94 \
+MLFLOW_TRACKING_PASSWORD=8753b04ed498c50f40388010fee24743d51213c5 \
+python script.py
+
+Run this to export as env variables
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/kenzo94/ML-Ops.mlflow 
+
+export MLFLOW_TRACKING_USERNAME=kenzo94
+
+export MLFLOW_TRACKING_PASSWORD=8753b04ed498c50f40388010fee24743d51213c5
+```
