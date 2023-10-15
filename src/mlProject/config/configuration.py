@@ -1,6 +1,6 @@
 from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entry import DataIngestionConfig, DataTransformationConfig, DataValidationConfig
+from mlProject.entity.config_entry import DataIngestionConfig, DataTransformationConfig, DataValidationConfig, ModelTrainerConfig
 
 # class to create dirs for the raw data
 class ConfigurationManager:
@@ -84,3 +84,36 @@ class DataTransformationManager:
         )
         
         return data_transformation_config
+    
+# class to create dirs for the raw data
+class ModelTrainerManager:
+    def __init__(
+        self,
+        config_filepath = CONFIG_FILE_PATH,
+        params_filepath = PARAMS_FILE_PATH,
+        schema_filepath = SCHEMA_FILE_PATH):
+        
+        self.config = read_yaml(config_filepath)
+        self.params = read_yaml(params_filepath)
+        self.schema = read_yaml(schema_filepath)
+        
+        create_directories([self.config.artifacts_root])
+        
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.ElasticNet
+        schemas = self.schema.TARGET_COLUMN
+        
+        create_directories([config.root_dir])
+        
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path=config.train_data_path,
+            test_data_path=config.test_data_path,
+            model_name=config.model_name,
+            alpha=params.alpha,
+            l1_ratio=params.l1_ratio,
+            target_column=schemas.name
+        )
+        
+        return model_trainer_config
