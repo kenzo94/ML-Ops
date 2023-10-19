@@ -145,7 +145,25 @@ export MLFLOW_TRACKING_PASSWORD=8753b04ed498c50f40388010fee24743d51213c5
     ECR_REPOSITORY_NAME = simple-app
 
 
+# Azure Deployment
 
+1. Create Container Registry
+
+# Afterwards Run from YOUR terminal
+
+2. Build Container: docker build -t your_docker_registry_name/your_project_name:latest .
+
+3. Login into registry: docker login your_docker_registry_name
+
+4. Push to Registry: docker push your_docker_registry_name/your_project_name:latest
+
+5. Create Azure Web App and take pushes container
+
+## In Deployment center of the Web App
+
+6. Set Source to GitHub actions
+
+7. Set CD On
 
 ## About MLflow 
 MLflow
